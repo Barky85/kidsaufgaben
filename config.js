@@ -6,8 +6,8 @@
 //    Supabase → Project Settings → API eintragen.
 //    Solange beide Felder leer sind, läuft die App im DEMO-MODUS
 //    (Daten nur im eigenen Browser, gut zum Ausprobieren).
-export const SUPABASE_URL = "";
-export const SUPABASE_ANON_KEY = "";
+export const SUPABASE_URL = "https://ewjqytacrscqtbxncvpl.supabase.co/rest/v1/";
+export const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV3anF5dGFjcnNjcXRieG5jdnBsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ2MDI4ODAsImV4cCI6MjExMDE3ODg4MH0.BIgz1EoGxsD--XcyDQVGGeXb5HTU5NpeZEWHXX2HTrI";
 
 // 2) Login: SHA-256-Hashes der Passwörter (keine Klartext-Passwörter!).
 //    Neuen Hash erzeugen: siehe README, Abschnitt "Passwörter ändern".
